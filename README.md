@@ -11,17 +11,20 @@ FusedAI is an early, practical application of the Model Context Protocol (MCP) v
 ### 1. Frontend Prompt and Output
 After entering a prompt like "Generate a login page for me" in the Frontend tab, FusedAI generates a beautiful, production-ready React component using both Tailwind CSS and Bootstrap. You see the generated code and a live preview side by side.
 
-image.png
+![image](https://github.com/user-attachments/assets/919444bd-36b7-48ec-a8e4-c6a955d4cc20)
+
 
 ### 2. CodeSandbox View (Open in Sandbox)
 Clicking "Open in Sandbox" launches the generated code in CodeSandbox, where you can see the full file structure, edit the code, and preview the UI in a real development environment.
 
-image.png
+![image](https://github.com/user-attachments/assets/be81b900-0a13-40ce-96af-50cb881a86e2)
+
 
 ### 3. Backend Prompt and Output
 Switching to the Backend tab, you can enter a prompt like "based on the login form generate flask api endpoints for user authentication". The backend generator is aware of your current frontend code and prompt, and generates matching backend code (e.g., FastAPI or Flask endpoints) that fits your UI.
 
-image.png
+![image](https://github.com/user-attachments/assets/238890a7-fc63-4faa-afe0-3a7f75e60ed4)
+
 
 ## Why FusedAI?
 Modern web development is often slow and fragmented, with frontend and backend teams working in silos. Lovable, Cursor, and MCP have shown the power of AI for UI and code generation, but there's a gap: a tool that keeps both frontend and backend in sync, context-aware, and instantly previewable. FusedAI bridges that gap.
